@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-f1 = First.create(name: "a")
+f1 = First.create(name: "z")
 s1 = Second.create(name: "b", first: f1)
 t1 = Third.create(name: "b", first: f1)
 

@@ -24,6 +24,8 @@ GEM
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.0, >= 1.0.3)
+    active_record_union (1.2.0)
+      activerecord (>= 4.0)
     activejob (5.1.1)
       activesupport (= 5.1.1)
       globalid (>= 0.3.6)
@@ -170,6 +172,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_record_union
   autoprefixer-rails
   better_errors
   binding_of_caller
